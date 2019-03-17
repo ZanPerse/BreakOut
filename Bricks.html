@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <script src="js/jQuery.js"></script>
+  <script type="application/javascript" src="js/skica.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.0.1/dist/sweetalert2.all.min.js"></script>
+</head>
+
+<body onload="drawIt()">
+  <br/><br/>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <div id="bricks">
+    <br/>
+    <ul class="meni">
+      <li id="cas"> time 00 : 00 </li><br/>
+      <li id="tocke"></li><br/>
+      <li id="zivljenja"></li>
+          <br/>
+          <br/>
+          <img src="slike/info.png" onclick="info()" class="info"/>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <img src="slike/pokal.png" onclick="leaderboard()" class="info"/>
+    </ul>
+  </div>
+</body>
+</html>

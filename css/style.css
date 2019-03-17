@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+  font-family: candy;
+  src: url("../font/starjedi.ttf");
+}
+@font-face {
+  font-family: candy1;
+  src: url("../font/super.ttf");
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+body{
+	background-image: url("../slike/SPACE.png");
+	background-repeat: no-repeat;
+}
+#bricks{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#canvas{
+	border: 6px #ffffff solid;
+	display:block;
+	margin: 0 auto;
+}
+#cas{
+	font-size:30px;
+	font-family: candy1;
+	color:white;
+}
+#tocke{
+	font-size:30px;
+	font-family: candy1;
+	color:white;
+
+}
+#zivljenja{
+	color: white;
+	text-align: center;
+	font-size:30px;
+	font-family: candy1;
+
+}
+
+ul li{
+  display: inline;
+	padding: 50px;
+
+}
+ul{
+  margin: 0 auto;
+  text-align: center;
+  height:100px;
+}
+div{
+  margin: 0 auto;
+  text-align: center;
+}
+.info{
+	height:64px;
+	width:64px;
+}
+.box {
+   display: flex;
+   align-items:center;
+	 margin-left: 120px;
+}
+.box1 {
+   display: flex;
+   align-items:center;
+	 margin-left: 50px;
+}
+.meni{
+	background-color:rgba(50,50,50,0.8);
+	height: 200px;
+  border: 3px solid white;
+}
+.span1{
+	padding-bottom: 15px;
+}
+.span2{
+	padding-bottom: 5px;
+}
+.swalwide{
+	width: 600px;
+}
