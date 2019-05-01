@@ -7,10 +7,13 @@
   <script src="js/jQuery.js"></script>
   <script type="application/javascript" src="js/skica.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.0.1/dist/sweetalert2.all.min.js"></script>
+  <link rel="icon" href="slike/icon.png" sizes="32x32" type="image/png">
 </head>
 
 <body onload="drawIt()">
-  <br/><br/>
+  <br/>
+<h1 style="font-family:candy1;font-size:40px;color:white;letter-spacing:1px;text-align: center;">Space breakout</h1>
+  <br/>
   <canvas id="canvas" width="800" height="600"></canvas>
   <div id="bricks">
     <br/>
@@ -22,6 +25,7 @@
           <br/>
           <img src="slike/info.png" onclick="info()" class="info"/>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <img src="slike/user.png" onclick="user()" class="info"/>
           &nbsp; &nbsp; &nbsp; &nbsp;
           <img src="slike/pokal.png" onclick="leaderboard()" class="info"/>
     </ul>

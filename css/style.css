@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 @font-face {
   font-family: candy;
   src: url("../font/starjedi.ttf");
@@ -16,7 +17,8 @@ height: 100%;
 }
 body{
 	background-image: url("../slike/SPACE.png");
-	background-repeat: no-repeat;
+
+	background-size: cover;
 }
 #bricks{
 	width: 500px;
@@ -89,4 +91,15 @@ div{
 }
 .swalwide{
 	width: 600px;
+}
+.submit{
+ height: 40px;
+ width: 100px;
+ border-radius: 5px;
+ border: 1px solid #3085D6;
+ color:white;
+ background: #3085D6;
+ font-family: candy1;
+ letter-spacing: 2px;
+ font-size: 20px;
 }
